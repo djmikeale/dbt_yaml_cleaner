@@ -16,8 +16,18 @@ YAML files in dbt projects can vary. This tool provides a solution to standardiz
 
 ## Usage
 
-1. **Installation**:
-   - Clone this repository.
+1. **Installation with bash/zsh**:
+
+```shell
+git clone https://github.com/djmikeale/dbt_yaml_cleaner.git
+cd dbt_yaml_cleaner
+python3 -m venv venv
+source venv/bin/activate
+python3 -m pip install --upgrade pip
+python3 -m pip install -r requirements.txt
+```
+
+
    - Install the required dependencies using `pip install -r requirements.txt`.
 
 2. **Execution**:
